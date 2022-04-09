@@ -1,0 +1,98 @@
+h1 {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-bloc;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: lowercase;
+  text-overflow: hidden;
+}
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define mixin with two arguments */
+.myArticle {
+  border: 1px solid blue;
+}
+
+.myNotes {
+  border: 2px solid red;
+}
+
+.myTips {
+  border: 1px solid orange;
+}
+
+.myBox {
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+.button-basic, .button-submit, .button-report {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report {
+  background-color: red;
+}
+
+.button-submit {
+  background-color: green;
+  color: white;
+}
+
+body {
+  color: red;
+  font-size: 25px;
+  font-weight: bol;
+  border: 1px solid blue;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: red;
+}
+
+#container {
+  width: 680px;
+}
+
+/*# sourceMappingURL=mystyle.css.map */
